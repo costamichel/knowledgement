@@ -1,0 +1,5 @@
+Funções do pyodbc
+
+Listar colunas de uma tabela: for row in cursor.columns(table='tabela'): print(row.column_name)
+Acessar coluna de uma linha pyodbc: linha.coluna
+Acessar coluna de uma linha pyodbc por índice: linha[0]

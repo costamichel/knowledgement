@@ -1,0 +1,16 @@
+Laços de repetição no Sybase
+
+Fontes:
+https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc00801.1530/doc/html/san1281564906493.html
+
+----------------------------------------
+
+
+For:
+>>
+FOR names AS curs CURSOR FOR
+SELECT Surname
+FROM Employees
+DO
+	CALL search_for_name( Surname );
+END FOR

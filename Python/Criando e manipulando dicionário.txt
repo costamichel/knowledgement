@@ -1,0 +1,17 @@
+Trabalhando com dicionários em Python
+
+Fontes:
+https://www.hashtagtreinamentos.com/dicionarios-em-python?gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x13Wtq6a4eRs1wrXx3AxGAyI3FlKsc6h7SVXvAMlGh3dkXBqIVR_cIaAn6YEALw_wcB
+
+------------------------------------------
+
+Acesso a um valor => dicionario['chave']
+Adicionar novo item => dicionario['nov_chave'] = "valor"
+Ver todos as chaves => for k in dicionario: print(k)
+Ver todos os valores => for k in dicionario: print(dicionario[k])
+Remover um item => dicionario.pop('chave')
+Verificar se chave existe => if 'chave' in dicionario
+Criar dicionários => {}
+Juntar dicionários => dicionario1.update(dicionario2)	-> esta operação atualiza o dicionário 1 - método update retorna None
+Remover todos os elementos de um dicionário => dicionario.clear()
+Iterar sobre chave/valor => for c, v in dicionario.items()

@@ -1,0 +1,9 @@
+Trabalhando com Strings Python
+
+Fontes:
+https://www.simplilearn.com/tutorials/python-tutorial/list-to-string-in-python
+
+
+--------------------------------
+
+Converter lista em string (separado por vírgula e espaço) => ', '.join(list) 	OBS: não funciona quando for uma lista de números

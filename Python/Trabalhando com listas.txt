@@ -1,0 +1,13 @@
+Manipulando Listas em Python
+
+Fontes: 
+https://www.programiz.com/python-programming/methods/list/pop
+https://www.tutorialspoint.com/python/list_len.htm
+https://www.delftstack.com/pt/howto/python/python-string-to-list/
+
+------------------------------
+
+Remover e retornar último elemento de uma lista => lista.pop()
+Tamanho de uma lista => len(lista)
+Adicionar elemento na lista => lista.append()
+Converter string (separada por vírgulas) em lista => string.split(',')

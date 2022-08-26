@@ -1,0 +1,8 @@
+Exceções em Python
+
+Fontes:
+https://www.w3schools.com/python/gloss_python_raise.asp
+
+-------------------------------------------------------------------------
+
+Lançar uma exceção: raise Exception(mensagem)

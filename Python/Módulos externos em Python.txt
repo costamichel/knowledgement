@@ -1,0 +1,13 @@
+Modularizando em python
+
+Fonte:
+https://www.youtube.com/watch?v=jbOUinjqjx0
+
+---------------------------------------------
+
+import xpto -> importa tudo do arquivo xpto.py
+xpto.funText() -> roda a função funTest importada do módulo xpto
+import xpto as x -> alias p/ módulo
+from xpto import str_test -> importa apenas a string str_test do módulo xpto
+print(str_test) -> imprimi string importada
+print(dir(xpto)) -> mostra tudo o que tem dentro do módulo

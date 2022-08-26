@@ -1,0 +1,11 @@
+Comandos Sybase - Alteração de estrutura de tabelas (DDL)
+
+Fontes:
+https://infocenter-archive.sybase.com/help/index.jsp?topic=/com.sybase.dc32300_1250/html/sqlug/X27996.htm
+https://www.sqlines.com/sybase-asa/autoincrement_identity#:~:text=DEFAULT%20AUTOINCREMENT%20and%20IDENTITY%20properties,a%20column%20in%20Sybase%20ASA.
+
+---------------------------------------------
+
+Remover coluna de tabela: alter table nome_tabela drop nome_coluna;
+Adicionar coluna em uma tabela: alter table nome_tabela add nome_coluna tipo_coluna;
+Declarar auto-incremento na coluna (no ddl): coluna default autoincrement;

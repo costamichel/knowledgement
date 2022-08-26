@@ -1,0 +1,6 @@
+Tuplas em Python
+
+
+Tuplas são imutáveis em Phyton, não é possível retirar ou alterar valores
+Declaração de uma tupla -> tupla = (10, 20, 30)
+Acesso a um elemento específico de uma tupla através do índice i -> tupla[i]

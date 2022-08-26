@@ -1,0 +1,11 @@
+Funções no python
+
+-> É possível passar função como parâmetro:
+def funcao1():
+	print('Hello world')
+
+def funcao2(funcao):
+	funcao()
+
+funcao2(funcao1)
+### saída: 'Hello world'

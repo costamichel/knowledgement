@@ -1,0 +1,10 @@
+Jupyter Notebook
+
+Fontes:
+https://www.youtube.com/watch?v=_eK0z5QbpKA
+
+----------------------------------------------
+
+Instalação:
+-> Baixar o Anaconda
+-> Instalar desmarcando as opções

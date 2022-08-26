@@ -1,0 +1,10 @@
+Insert de dados em tabelas no Sybase
+
+Fontes:
+https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc00801.1520/html/iqrefso/X315746.htm
+
+----------------------------
+
+INSERT INTO Departments
+(DepartmentID, DepartmentName, DepartmentHeadID)
+VALUES (600, 'Eastern Sales', 501)

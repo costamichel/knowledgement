@@ -1,0 +1,11 @@
+Importação de dados no Sybase (SQL Anywhere)
+
+Fontes:
+https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.help.sqlanywhere.12.0.1/dbusage/load-s-3814565-sql.html
+
+------------------------------------------
+
+Importação de CSV: 
+>> INPUT INTO tabela FROM 'c:\\test\\arquivo.csv' SKIP 1;
+-> SKIP 1 serve p/ desconsiderar primeira linha
+-> deve ser criado a tabela antes de fazer a importação (o INPUT não cria a tabela)
