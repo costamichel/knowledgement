@@ -1,0 +1,12 @@
+Exportação de tabelas do Sybase
+
+Fontes:
+https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.help.sqlanywhere.12.0.1/dbusage/load-s-4183756-sql.html
+
+------------------------------------------------------------------------
+
+SELECT * FROM tabela; 
+OUTPUT TO 'C:\Users\michel.costa\Desktop\Folha\nome_arquivo.csv' 
+    FORMAT TEXT
+    QUOTE '"'
+    WITH COLUMN NAMES;

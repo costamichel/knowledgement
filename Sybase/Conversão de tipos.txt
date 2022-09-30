@@ -1,0 +1,8 @@
+Conversão de tipos no Sybase
+
+Fontes:
+https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38151.1510/html/iqrefbb/Cast.htm
+
+--------------------------------
+
+Converter para inteiro, numérico ou char => CAST(dado AS tipo)	-- ex.: CAST('1' AS integer)

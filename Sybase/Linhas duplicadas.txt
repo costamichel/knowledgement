@@ -1,0 +1,11 @@
+Estratégia para lidar com linhas duplicadas em uma tabela
+
+Fontes:
+https://stackoverflow.com/questions/19544489/how-to-delete-duplicate-rows-in-sybase-when-you-have-no-unique-key
+
+-------------------------------------------
+Linhas totalmente duplicadas:
+> SELECT DISTINCT * INTO temp_tabela FROM tabela;
+  DELETE FROM tabela;
+  INSERT INTO tabela SELECT * FROM temp_tabela;
+  DROP temp_tabela;

@@ -2,7 +2,12 @@ Exceções em Python
 
 Fontes:
 https://www.w3schools.com/python/gloss_python_raise.asp
+https://www.w3schools.com/python/python_try_except.asp
 
 -------------------------------------------------------------------------
 
 Lançar uma exceção: raise Exception(mensagem)
+Código a ser tentado executar: try
+Executado mediante exceção: except
+Executado se houver exceção ou não: finally
+Executado se não houver exceção: else

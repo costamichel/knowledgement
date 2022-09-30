@@ -6,6 +6,7 @@ https://www.youtube.com/watch?v=DKUCqkgyvCY
 https://www.youtube.com/watch?v=ItjusOlIzqc
 https://www.youtube.com/watch?v=acbHR0muN-0
 https://pt.stackoverflow.com/questions/352006/guardar-palavras-com-acentos-python
+https://bobbyhadz.com/blog/python-typeerror-object-of-type-decimal-is-not-json-serializable => erro com decimais no dumps
 
 ===============================
 

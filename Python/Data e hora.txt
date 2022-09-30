@@ -1,0 +1,9 @@
+Data e hora no Python
+
+Fontes:
+https://www.hashtagtreinamentos.com/como-trabalhar-com-tempo-no-python#:~:text=date.,a%20data%20atual%20no%20Python.
+
+-------------------------
+Biblioteca datetime => import datetime
+Data e hora no momento exato => datetime.datetime.now()		# retorna algo como "2022-08-31 11:09:18.578890"
+	OBS.: usar format se junto com string, pois o retorno é um objeto no formato datetime

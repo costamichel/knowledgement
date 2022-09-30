@@ -2,8 +2,18 @@ Trabalhando com Strings Python
 
 Fontes:
 https://www.simplilearn.com/tutorials/python-tutorial/list-to-string-in-python
-
+https://www.digitalocean.com/community/tutorials/python-trim-string-rstrip-lstrip-strip
+https://www.geeksforgeeks.org/python-string-length-len/
+https://stackoverflow.com/questions/4843173/how-to-check-if-type-of-a-variable-is-string
+https://www.w3schools.com/python/ref_string_replace.asp
+https://www.tutorialspoint.com/python3/string_isdigit.htm
 
 --------------------------------
 
 Converter lista em string (separado por vírgula e espaço) => ', '.join(list) 	OBS: não funciona quando for uma lista de números
+Limpar espaços em branco => string.strip()	{há também as funções lstrip() e rstrip()}
+Tamanho de uma string => len(string)
+Verificar se variável x é string => isinstance(x, str) # se for string retorna True
+Verificar se substring está contida em uma string => substring in strig  # retorna True se estiver
+Substituir texto => string.replace("antigo", "novo")  # não modifica o objeto, retorna uma nova string
+Verificar se string é um número inteiro => string.isdigit()	# retorna True se string conter apenas números

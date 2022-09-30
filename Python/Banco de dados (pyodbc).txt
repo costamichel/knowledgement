@@ -1,0 +1,12 @@
+Funções do pyodbc
+
+Fontes:
+https://thepythonguru.com/fetching-records-using-fetchone-and-fetchmany/
+
+-----------------------------------------------------------------------------------------
+
+Listar colunas de uma tabela: for row in cursor.columns(table='tabela'): print(row.column_name)
+Acessar coluna de uma linha pyodbc: linha.coluna
+Acessar coluna de uma linha pyodbc por índice: linha[0]
+Imprimir apenas uma linha da consulta: print(cursor.fetchone())
+Listar tipos de dados de colunas de uma tabela: for row in cursor.columns(table="tabela"): print(row.type_name)

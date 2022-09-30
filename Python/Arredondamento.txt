@@ -1,0 +1,8 @@
+Arredondamento em Python
+
+Fontes:
+https://www.horadecodar.com.br/2020/04/23/como-limitar-numeros-decimais-em-python/
+
+-------------------------------------------------------------
+
+Exibir 2 casas decimais -> print({:.2f}.format(numero))		# 2 pode ser substituído pelo nº de casas decimais a exibir

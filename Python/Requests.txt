@@ -1,0 +1,17 @@
+Uso da biblioteca requests para requisição HTTP no Python
+
+Fontes: https://requests.readthedocs.io/en/latest/user/quickstart
+https://stackoverflow.com/questions/34618149/post-unicode-string-to-web-service-using-python-requests-library
+
+-------------------------------------------------------------------
+
+POST => requests.post(rota, data=carga_json, headers=cabecalho_da_requisicao)
+PUT => requests.put(rota, data=carga_json, headers=cabecalho_da_requisicao)
+Status code de uma requisição => 
+	r = requests.post(rota, data = carga)
+	r.status_code
+Resposta JSON de uma requisicao =>
+	r = requests.get(rota)
+	r.json()	# dicionário
+GET => requests.get(rota)
+Charset (usar quando for enviar dados) => encode('utf-8') - ex: requests.post(url, data=payload.encode('utf-8'))

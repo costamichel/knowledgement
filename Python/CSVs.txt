@@ -1,0 +1,8 @@
+Trabalhando com CSVs
+
+Fontes:
+https://stackoverflow.com/questions/15063936/csv-error-field-larger-than-field-limit-131072
+
+
+-----------------------------------------------------------------
+Definindo tamanho de campo máximo de leitura (erro 'larger than field limit'): csv.field_size_limit(sys.maxsize)	# importar 'sys'
