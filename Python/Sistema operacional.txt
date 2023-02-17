@@ -1,0 +1,8 @@
+Comandos relacionados ao sistema operacional em Python
+
+Fontes:
+https://www.scaler.com/topics/how-to-clear-screen-in-python/
+
+------------------------------------------------------------------
+
+Limpar a tela: os.system('cls')	# no Linux, os.system('clear')

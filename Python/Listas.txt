@@ -4,6 +4,10 @@ Fontes:
 https://www.programiz.com/python-programming/methods/list/pop
 https://www.tutorialspoint.com/python/list_len.htm
 https://www.delftstack.com/pt/howto/python/python-string-to-list/
+https://stackabuse.com/remove-element-from-an-array-in-python/
+https://www.hashtagtreinamentos.com/como-copiar-listas-em-python
+https://acervolima.com/maneiras-de-concatenar-duas-listas-em-python/
+https://pt.stackoverflow.com/questions/147476/dividir-uma-lista-em-n-sublistas
 
 ------------------------------
 
@@ -11,3 +15,8 @@ Remover e retornar último elemento de uma lista => lista.pop()
 Tamanho de uma lista => len(lista)
 Adicionar elemento na lista => lista.append()
 Converter string (separada por vírgulas) em lista => string.split(',')
+Deletar elemento de lista pelo índice => del lista[indice]
+Remover elemento de lista pelo item => lista.remove(item)	# ex: array.remove("abc") irá remover o elemento com o texto "abc"
+Copiar lista em Python => lista_A = lista_B[:]		# também pode ser usado lista_A = lista_B.copy()
+Concatenar duas listas => lista_A = lista_A + lista_B	# ou lista_A += lista_B
+Dividir lista em uma lista com n partes: lista_dividida = [lista[i::n] for i in range(n)]

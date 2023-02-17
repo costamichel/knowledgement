@@ -4,5 +4,7 @@ Fontes:
 https://stackoverflow.com/questions/15063936/csv-error-field-larger-than-field-limit-131072
 
 
+
 -----------------------------------------------------------------
 Definindo tamanho de campo máximo de leitura (erro 'larger than field limit'): csv.field_size_limit(sys.maxsize)	# importar 'sys'
+Erro "utf-8 can't decode byte at...": substituir open("arquivo", encoding="utf-8") por open('arquivo', encoding = "ISO-8859-1")

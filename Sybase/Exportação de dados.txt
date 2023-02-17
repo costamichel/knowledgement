@@ -5,8 +5,10 @@ https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.help.sqlanywhere.
 
 ------------------------------------------------------------------------
 
+---- EXPOERTAÇÃO EM CSV
 SELECT * FROM tabela; 
 OUTPUT TO 'C:\Users\michel.costa\Desktop\Folha\nome_arquivo.csv' 
     FORMAT TEXT
     QUOTE '"'
-    WITH COLUMN NAMES;
+    WITH COLUMN NAMES
+    DELIMITED BY ';';

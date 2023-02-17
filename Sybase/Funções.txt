@@ -1,0 +1,8 @@
+Trabalhando com funções no Sybase
+
+Fontes:
+https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc36272.1572/html/commands/X35229.htm
+
+===========================================
+
+Receber coluna de select em varíavel dentro de uma função: DECLARE @variavel tipo; SELECT @variavel = coluna FROM TABELA;

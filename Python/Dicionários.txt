@@ -2,6 +2,8 @@ Trabalhando com dicionários em Python
 
 Fontes:
 https://www.hashtagtreinamentos.com/dicionarios-em-python?gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x13Wtq6a4eRs1wrXx3AxGAyI3FlKsc6h7SVXvAMlGh3dkXBqIVR_cIaAn6YEALw_wcB
+https://stackabuse.com/python-check-if-variable-is-a-dictionary/
+https://www.w3schools.com/python/ref_list_sort.asp
 
 ------------------------------------------
 
@@ -15,3 +17,5 @@ Criar dicionários => {}
 Juntar dicionários => dicionario1.update(dicionario2)	-> esta operação atualiza o dicionário 1 - método update retorna None
 Remover todos os elementos de um dicionário => dicionario.clear()
 Iterar sobre chave/valor => for c, v in dicionario.items()
+Verificar se variável é dicionário => type(variavel) is dict	# True se for dicionário
+Ordenar lista => lista.sort()

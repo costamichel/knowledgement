@@ -1,0 +1,4 @@
+PostgreSQL
+
+Backup e Restore
+https://fabridata.com/backup-e-restore-no-postgresql/

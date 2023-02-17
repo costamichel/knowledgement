@@ -3,6 +3,7 @@ Exceções em Python
 Fontes:
 https://www.w3schools.com/python/gloss_python_raise.asp
 https://www.w3schools.com/python/python_try_except.asp
+https://www.delftstack.com/pt/howto/python/python-exception-message/
 
 -------------------------------------------------------------------------
 
@@ -11,3 +12,6 @@ Código a ser tentado executar: try
 Executado mediante exceção: except
 Executado se houver exceção ou não: finally
 Executado se não houver exceção: else
+Imprimir mensagens de exceções: 
+    except Exception as e:
+    print('Exception occurred while code execution: ' + repr(e))

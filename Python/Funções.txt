@@ -1,5 +1,10 @@
 Funções no python
 
+Fontes: https://pense-python.caravela.club/13-estudo-de-caso-selecao-de-estrutura-de-dados/05-parametros-opcionais.html
+https://pythoncircle.com/post/680/solving-python-error-unboundlocalerror-local-variable-x-referenced-before-assignment/
+
+----------------------------------------------
+
 -> É possível passar função como parâmetro:
 def funcao1():
 	print('Hello world')
@@ -9,3 +14,6 @@ def funcao2(funcao):
 
 funcao2(funcao1)
 ### saída: 'Hello world'
+
+-> Parâmetro opcional em função: def funcao(param = 10)	# se o parâmetro param não for informado o valor padrão será 10
+-> Declarar variável global em função (para poder alterar valor): global variavel

@@ -7,6 +7,8 @@ https://www.geeksforgeeks.org/python-string-length-len/
 https://stackoverflow.com/questions/4843173/how-to-check-if-type-of-a-variable-is-string
 https://www.w3schools.com/python/ref_string_replace.asp
 https://www.tutorialspoint.com/python3/string_isdigit.htm
+https://www.programiz.com/python-programming/methods/string/index
+https://stackoverflow.com/questions/10880813/typeerror-sequence-item-0-expected-string-int-found
 
 --------------------------------
 
@@ -17,3 +19,5 @@ Verificar se variável x é string => isinstance(x, str) # se for string retorna
 Verificar se substring está contida em uma string => substring in strig  # retorna True se estiver
 Substituir texto => string.replace("antigo", "novo")  # não modifica o objeto, retorna uma nova string
 Verificar se string é um número inteiro => string.isdigit()	# retorna True se string conter apenas números
+Retornar índice de substring dentro de uma string => string.index(substring)
+Conversão de lista em string (prevenção de erro de tipo) => ",".join(str(v) for v in lista)
