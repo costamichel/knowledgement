@@ -2,7 +2,9 @@ Trabalhando com Strings no Sybase
 
 Fontes: 
 https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38151.1520/html/iqrefbb/Charindex.htm
+https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38151.1510/html/iqrefbb/Upper.htm
 
 ----------------------------------
 
 Índice de caractere em uma string => charindex(caractere, string)  -- se não encontrar, retorna 0
+Caixa alta => upper(string)	-- ex: 'Texto' vira 'TEXTO'

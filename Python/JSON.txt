@@ -8,6 +8,7 @@ https://www.youtube.com/watch?v=acbHR0muN-0
 https://pt.stackoverflow.com/questions/352006/guardar-palavras-com-acentos-python
 https://bobbyhadz.com/blog/python-typeerror-object-of-type-decimal-is-not-json-serializable => erro com decimais no dumps
 https://bobbyhadz.com/blog/python-json-decoder-jsondecodeerror-invalid-control-character-at
+https://horadecodar.com.br/2021/03/25/como-remover-chave-de-dicionario-em-python/
 
 ===============================
 
@@ -22,10 +23,12 @@ Para iterar sobre dicionários:
 for x in dict -> itera sobre as chaves
 for x in dict.values() -> itera sobre os valores
 for x in dict.items() -> itera sobre as tuplas chave-valor
-for k, v in dict.item() -> itera sobre chaves k e valores v
+for k, v in dict.items() -> itera sobre chaves k e valores v
 
 Acesso de valor específico -> objeto["chave"]
 
 Para trabalhar com arquivo JSON externo, em vez de string, é usado as funções load() e dump()
 
 Para corrigir erro na função loads, em que há caracteres de controle -> json.loads(string, strict = False)
+
+Remover chave de dicionário: dicionario.pop("chave")

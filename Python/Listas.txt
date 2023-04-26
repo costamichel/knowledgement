@@ -8,6 +8,7 @@ https://stackabuse.com/remove-element-from-an-array-in-python/
 https://www.hashtagtreinamentos.com/como-copiar-listas-em-python
 https://acervolima.com/maneiras-de-concatenar-duas-listas-em-python/
 https://pt.stackoverflow.com/questions/147476/dividir-uma-lista-em-n-sublistas
+https://www.w3schools.com/python/ref_file_writelines.asp
 
 ------------------------------
 
@@ -20,3 +21,4 @@ Remover elemento de lista pelo item => lista.remove(item)	# ex: array.remove("ab
 Copiar lista em Python => lista_A = lista_B[:]		# também pode ser usado lista_A = lista_B.copy()
 Concatenar duas listas => lista_A = lista_A + lista_B	# ou lista_A += lista_B
 Dividir lista em uma lista com n partes: lista_dividida = [lista[i::n] for i in range(n)]
+Gravar lista em arquivo => file.writelines(lista)

@@ -9,6 +9,7 @@ https://www.w3schools.com/python/ref_string_replace.asp
 https://www.tutorialspoint.com/python3/string_isdigit.htm
 https://www.programiz.com/python-programming/methods/string/index
 https://stackoverflow.com/questions/10880813/typeerror-sequence-item-0-expected-string-int-found
+https://programadorviking.com.br/como-converter-string-para-int-python/#:~:text=V%C3%ADdeo%20Aula-,Fun%C3%A7%C3%A3o%20Int()%20Python,e%20decimais%20em%20valores%20inteiros.
 
 --------------------------------
 
@@ -21,3 +22,4 @@ Substituir texto => string.replace("antigo", "novo")  # não modifica o objeto, 
 Verificar se string é um número inteiro => string.isdigit()	# retorna True se string conter apenas números
 Retornar índice de substring dentro de uma string => string.index(substring)
 Conversão de lista em string (prevenção de erro de tipo) => ",".join(str(v) for v in lista)
+Converter string para inteiro => int(str)

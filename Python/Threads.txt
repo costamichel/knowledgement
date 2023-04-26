@@ -3,8 +3,10 @@ Threads em Python
 Fontes:
 https://medeubranco.wordpress.com/2008/07/10/threads-em-python/
 https://superfastpython.com/stop-a-thread-in-python/
+https://pt.stackoverflow.com/questions/532117/como-interromper-um-script-em-andamento-com-uma-tecla
 
 ------------------------------------------------------------------
 
 Criar uma thread: ver na pasta Exemplos
 Aguardar finalização de thread: thr.join()
+Interrupção de execução por teclado: ver na pasta exemplos

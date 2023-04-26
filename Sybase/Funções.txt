@@ -2,7 +2,9 @@ Trabalhando com funções no Sybase
 
 Fontes:
 https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc36272.1572/html/commands/X35229.htm
+https://stackoverflow.com/questions/63137422/result-set-not-permitted-in-batch-statement-sql-anywhere
 
 ===========================================
 
 Receber coluna de select em varíavel dentro de uma função: DECLARE @variavel tipo; SELECT @variavel = coluna FROM TABELA;
+Mostrar tabela do dentro de procedures usando EXECUTE: EXECUTE IMMEDIATE WITH RESULT SET ON @cmd;
