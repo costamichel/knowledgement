@@ -2,3 +2,20 @@ PostgreSQL
 
 Backup e Restore
 https://fabridata.com/backup-e-restore-no-postgresql/
+
+Restauração de backup (ChatGPT):
+Para restaurar um arquivo de backup com a extensão ".backup" no PostgreSQL, você pode utilizar o utilitário de linha de comando chamado `pg_restore`. Aqui está um exemplo de como fazer isso:
+
+1. Abra o terminal ou prompt de comando.
+2. Navegue até o diretório onde o arquivo de backup está localizado.
+3. Execute o seguinte comando para restaurar o arquivo:
+
+   ```
+   pg_restore -U seu_usuario -d nome_do_banco -v arquivo.backup
+   ```
+
+   - Substitua "seu_usuario" pelo nome de usuário do PostgreSQL que você deseja usar.
+   - Substitua "nome_do_banco" pelo nome do banco de dados em que você deseja restaurar o backup.
+   - Substitua "arquivo.backup" pelo nome completo do arquivo de backup que você deseja restaurar.
+
+4. O `pg_restore` irá iniciar o processo de restauração e exibir informações sobre as etapas sendo executadas.

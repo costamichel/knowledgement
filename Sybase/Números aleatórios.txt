@@ -1,0 +1,8 @@
+Números aleatórios no Sybase:
+
+Fontes:
+https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38151.1520/html/iqrefbb/Rand.htm
+
+=======================================
+
+Gerar número aleatório, double entre 0 e 1: rand()

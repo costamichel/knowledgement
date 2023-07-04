@@ -2,4 +2,4 @@
 
 Anotações pessoais sobre linguagens de programação e ferramentas.
 
-Atualizado última aqui (Github) vez em 25/04/2023
+Atualizado última aqui (Github) vez em 04/07/2023

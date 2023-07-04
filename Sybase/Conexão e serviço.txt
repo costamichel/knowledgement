@@ -1,0 +1,4 @@
+Parâmetros para criar serviço (exemplo):
+-nJuizdeforaEduca 
+-xtcpip{host=localhost;serverport=8042} 
+"C:\bases\JuizdeforaEduca\Educa.db"
