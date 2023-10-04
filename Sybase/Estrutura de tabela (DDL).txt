@@ -11,3 +11,9 @@ Remover coluna de tabela: alter table nome_tabela drop nome_coluna;
 Adicionar coluna em uma tabela: alter table nome_tabela add nome_coluna tipo_coluna;
 Declarar auto-incremento na coluna (no ddl): coluna default autoincrement;
 Alterar tipo de coluna: ALTER TABLE tabela MODIFY coluna tipo;	-- ex: ALTER TABLE servidores MODIFY MATRICULA varchar(30);
+Alterar nome de tabela: ALTER TABLE nome_antigo RENAME nome_novo;
+ALterar para permitir coluna como null: ALTER TABLE tabela_nome MODIFY coluna_nome null;  -- ex: ALTER TABLE cloud_ejaAlocacaoAulas MODIFY cloud_itemEducacional null;
+Definir uma chave única em tabela: ALTER TABLE nome_tabela ADD CONSTRAINT nome_restricao UNIQUE (nome_coluna);	-- ex: ALTER TABLE cloud_alunos ADD CONSTRAINT UK_cloud_alunos_or_idAluno UNIQUE (or_idAluno)
+Definir uma chave primária composta na criação da tabela: PRIMARY KEY (col_1, col2);
+Definir chave única composta ao criar tabela: UNIQUE (col_1, col_2);
+Alterar nome de uma coluna: ALTER TABLE tabela RENAME old_col_name TO new_col_name;

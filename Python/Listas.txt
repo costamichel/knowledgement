@@ -22,3 +22,4 @@ Copiar lista em Python => lista_A = lista_B[:]		# também pode ser usado lista_A
 Concatenar duas listas => lista_A = lista_A + lista_B	# ou lista_A += lista_B
 Dividir lista em uma lista com n partes: lista_dividida = [lista[i::n] for i in range(n)]
 Gravar lista em arquivo => file.writelines(lista)
+Inverter uma lista => lista.reverse()	# obs: inverte diretamente o objeto lista

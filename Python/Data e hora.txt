@@ -6,7 +6,7 @@ https://www.digitalocean.com/community/tutorials/python-string-to-datetime-strpt
 https://www.covildodev.com.br/artigo/datetime-python
 
 -------------------------
-Biblioteca datetime => import datetime
+Biblioteca datetime => import datetime # ou "from datetime import datetime"
 Data e hora no momento exato => datetime.datetime.now()		# retorna algo como "2022-08-31 11:09:18.578890"
 	OBS.: usar format se junto com string, pois o retorno é um objeto no formato datetime
 Criar objeto datetime a partir de string =>
@@ -15,3 +15,5 @@ Criar objeto datetime a partir de string =>
 						datetime_object = datetime.strptime(datetime_str, '%Y-%m-%d %H:%M:%S')
 Acessar timestamp de objeto datetime => datetime_object.timestamp()
 Pegar timestamp em milissegundos => print(int(datetime_object.timestamp()) * 1000)
+Converter string "yyyy-MM-dd" para objeto datetime: datetime.strptime("2023-09-04", "%Y-%m-%d")
+Pegar dia da semana de objeto datetime: datetime_obj.strftime("%A")
