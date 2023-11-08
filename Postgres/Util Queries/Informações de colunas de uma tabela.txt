@@ -1,0 +1,7 @@
+select ordinal_position, column_name, column_default,
+	is_nullable,
+	data_type, character_maximum_length
+from information_schema.columns
+where table_catalog = 'db_name'
+	and table_name = 'table_name'
+order by ordinal_position asc

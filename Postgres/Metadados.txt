@@ -1,0 +1,7 @@
+Fontes:
+https://jquerydicas.blogspot.com/2017/11/procurar-tabelas-que-contenham-uma.html#:~:text=Para%20pesquisar%20quais%20as%20tabelas,objetos%20do%20Postgresql%2C%20em%20information_schema.
+
+======================================================
+
+information_schema.columns => view com informações das colunas de todas as tabelas do banco
+				select * from information_schema.columns

@@ -1,0 +1,6 @@
+Fontes:
+https://www.commandprompt.com/education/postgresql-lower-function-with-practical-examples/#:~:text=Postgres'%20LOWER()%20function%20accepts,to%20be%20converted%20into%20lowercase.
+
+=========================================================================
+
+String em letras minúsculas => LOWER(string)

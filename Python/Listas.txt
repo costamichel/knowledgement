@@ -9,6 +9,7 @@ https://www.hashtagtreinamentos.com/como-copiar-listas-em-python
 https://acervolima.com/maneiras-de-concatenar-duas-listas-em-python/
 https://pt.stackoverflow.com/questions/147476/dividir-uma-lista-em-n-sublistas
 https://www.w3schools.com/python/ref_file_writelines.asp
+https://pythonacademy.com.br/blog/list-comprehensions-no-python
 
 ------------------------------
 
@@ -23,3 +24,4 @@ Concatenar duas listas => lista_A = lista_A + lista_B	# ou lista_A += lista_B
 Dividir lista em uma lista com n partes: lista_dividida = [lista[i::n] for i in range(n)]
 Gravar lista em arquivo => file.writelines(lista)
 Inverter uma lista => lista.reverse()	# obs: inverte diretamente o objeto lista
+Ler uma lista de inteiros com string => str(x) for x in lista

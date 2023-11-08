@@ -3,6 +3,7 @@ Lidando com arquivos em Python
 Fontes:
 https://www.delftstack.com/pt/howto/python/python-write-list-to-file/
 https://horadecodar.com.br/2020/12/24/como-deletar-arquivo-com-python/
+ChatGpt
 
 -------------------------------------------------------------------------
 
@@ -10,3 +11,5 @@ Gravar uma lista num arquivo:
 	with open("arquivo", "w") as f:
     		f.write("\n".join(lista))
 Deletar arquivo: os.remove("arquivo.txt")
+Criar uma pasta (importando Path de pathlib): Path("nome_da_pasta").mkdir(parents=True, exist_ok=True)	# parents=True cria diretórios pai e exist_ok não retorna erro caso a patas já exista
+Excluir uma pasta: Path("nome_da_pasta").rmdir()	# caso existam arquivos, vai gerar uma exceção

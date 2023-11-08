@@ -1,0 +1,37 @@
+Funções e operações usando a biblioteca pandas
+
+Fontes:
+https://pandas.pydata.org/docs/getting_started
+https://cmdlinetips.com/2020/07/cleaning_up_pandas-column-names/
+https://stackoverflow.com/questions/45803676/python-pandas-loc-filter-for-list-of-values
+https://www.acervolima.com.br/2021/04/alterar-letras-minusculas-para.html
+https://stackoverflow.com/questions/20167930/start-index-at-1-for-pandas-dataframe
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html
+https://www.acervolima.com.br/2020/12/adicionando-nova-coluna-ao-dataframe.html
+https://www.blog.dailydoseofds.com/p/become-a-trilingual-data-scientist
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html
+https://pt.stackoverflow.com/questions/428164/como-alterar-o-nome-da-coluna-do-dataframe-do-pandas
+https://acervolima.com/como-converter-inteiros-em-strings-no-pandas-dataframe/
+
+======================================================================
+
+Importar pandas para projeto => import pandas as pd
+Leitura de csv para um dataframe => df = pd.read_csv('nome_do_arquivo', sep=';')	# sep define o separador, que por padrão e a vírgula
+Retornar registros do início do arquivo => df.head()	# n é opcional e o padrão é 5
+Retornar registros do final do arquivo => df.tail()	# n é opcional e o padrão é 5
+Mudar os nomes de todas as colunas de dataframe para minúsculo => df.columns = df.columns.str.lower()
+Filtrando colunas => df.filter(items=['col_A', 'col_B'])
+Filtrando linhas => df.loc[df['col_name']==value]
+Filtrando linhas em comparação a uma lista de valores => df.loc[df['col_name].isin(list_of_values)]
+Valores únicos de uma coluna de um dataframe => df['col_name'].unique()
+Deixar todos os valores de uma coluna do dataframe em maiúsculo => df['col_name'] = df['col_name'].str.upper()
+Eliminar espaços em branco de valores de uma coluna => df['col_name'] = df['col_name'].str.strip()
+Começar índice do dataframe em 1 (padrão é 0) => df.index += 1	#incrementa 1 a todos os índices do df
+Exportar DataFrame para csv => df.to_csv('arquivo.csv', sep=';', encoding='utf-8', quoting='csv.QUOTE_NONNUMERIC'
+Adicionar colunas a um DataFrame => df['nome_nova_coluna'] = lista_nova_coluna
+Juntar dataframes => df = df1.merge(df2, how:'inner', on='nome_campo')	# recomendável consultar documentação para valores de outros parâmetros
+Remover coluna de dataframe => df.drop(columns=[lista_nomes_colunas], inplace=True)	# inplace opera no próprio dataframe, sem criar um novo
+Renomear coluna de dataframe => df.rename(columns={'nome_atigo': 'novo_nome'}, inplace=True)
+Converter tipo de coluna de dataframe => df['col'] = df['col'].astype(TIPO)    # TIPO pode ser str, int, float, ...
+Agrupar pela coluna 'A' e montar uma lista de outras colunas => df.groupby('A', as_index=False).agg(lambda x: ', '.join(set(x.dropna())))

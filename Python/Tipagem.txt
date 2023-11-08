@@ -1,0 +1,8 @@
+Tipagem (verificação de tipos) em Python
+
+Fontes:
+https://www.techiedelight.com/pt/check-variable-integer-python/
+
+===========================================================================
+
+Verificar se uma variável é um inteiro: isinstance(x, int) 	# retorna um boolean

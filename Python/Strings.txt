@@ -10,6 +10,8 @@ https://www.tutorialspoint.com/python3/string_isdigit.htm
 https://www.programiz.com/python-programming/methods/string/index
 https://stackoverflow.com/questions/10880813/typeerror-sequence-item-0-expected-string-int-found
 https://programadorviking.com.br/como-converter-string-para-int-python/#:~:text=V%C3%ADdeo%20Aula-,Fun%C3%A7%C3%A3o%20Int()%20Python,e%20decimais%20em%20valores%20inteiros.
+https://www.techiedelight.com/remove-non-alphanumeric-characters-string-python/
+https://www.w3schools.com/python/ref_string_lower.asp
 
 --------------------------------
 
@@ -23,3 +25,5 @@ Verificar se string é um número inteiro => string.isdigit()	# retorna True se 
 Retornar índice de substring dentro de uma string => string.index(substring)
 Conversão de lista em string (prevenção de erro de tipo) => ",".join(str(v) for v in lista)
 Converter string para inteiro => int(str)
+Deixar somente letras (usando expressão regular) => string = re.sub(r'[^a-zA-Z]', '', string)	# import re
+String em letras minúsculas => string.lower()	# retorna string em letras minúsculas
