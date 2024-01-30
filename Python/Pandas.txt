@@ -13,6 +13,14 @@ https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html
 https://pt.stackoverflow.com/questions/428164/como-alterar-o-nome-da-coluna-do-dataframe-do-pandas
 https://acervolima.com/como-converter-inteiros-em-strings-no-pandas-dataframe/
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html
+https://pandas.pydata.org/docs/reference/api/pandas.Series.str.contains.html
+https://pandas.pydata.org/docs/reference/api/pandas.Series.sort_values.html
+https://acervolima.com/python-pandas-funcao-dataframe-copy/
+https://pt.quora.com/Como-filtrar-as-linhas-que-n%C3%A3o-possuem-valores-None-em-uma-coluna-espec%C3%ADfica-de-um-Pandas-DataFrame-Python
 
 ======================================================================
 
@@ -35,3 +43,12 @@ Remover coluna de dataframe => df.drop(columns=[lista_nomes_colunas], inplace=Tr
 Renomear coluna de dataframe => df.rename(columns={'nome_atigo': 'novo_nome'}, inplace=True)
 Converter tipo de coluna de dataframe => df['col'] = df['col'].astype(TIPO)    # TIPO pode ser str, int, float, ...
 Agrupar pela coluna 'A' e montar uma lista de outras colunas => df.groupby('A', as_index=False).agg(lambda x: ', '.join(set(x.dropna())))
+Gravar dataframe em banco de dados => df.to_sql(nome_tabela, engine)	# engine do sqlalchemy
+Mostrar informações de colunas do dataframe => df.info(verbose=True)	# se tabela for muito grande, df.dtypes não imprime todas as colunas, sendo mais adequeado usar df.info()
+Substituir valores em um dataframe => df = df.replace('old_value', 'new_value)
+Converter dataframe em um array numpy => df_array = df.value
+Filtrar um Series (coluna de dataframe) por string => df['col_name'].contains("OK")	# retorna um Boolean Series com True para as linhas que contém a string "OK"
+Ordenar um Series => s = s.sort_values()
+Criar cópia de dataframe (sem vínculo com original) => df_destino = df_origem.copy()
+Filtrar linha em que uma coluna do dataframe não é null => df[df['col1'].notnull()]
+
