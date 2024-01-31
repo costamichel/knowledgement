@@ -21,6 +21,9 @@ https://pandas.pydata.org/docs/reference/api/pandas.Series.str.contains.html
 https://pandas.pydata.org/docs/reference/api/pandas.Series.sort_values.html
 https://acervolima.com/python-pandas-funcao-dataframe-copy/
 https://pt.quora.com/Como-filtrar-as-linhas-que-n%C3%A3o-possuem-valores-None-em-uma-coluna-espec%C3%ADfica-de-um-Pandas-DataFrame-Python
+https://acervolima.com/adicionar-coluna-ao-pandas-dataframe-com-um-valor-padrao/
+https://pandas.pydata.org/docs/reference/api/pandas.concat.html
+https://cursos.alura.com.br/forum/topico-como-percorrer-um-dataframe-e-implementar-uma-condicional-para-um-determinado-caso-218975
 
 ======================================================================
 
@@ -51,4 +54,6 @@ Filtrar um Series (coluna de dataframe) por string => df['col_name'].contains("O
 Ordenar um Series => s = s.sort_values()
 Criar cópia de dataframe (sem vínculo com original) => df_destino = df_origem.copy()
 Filtrar linha em que uma coluna do dataframe não é null => df[df['col1'].notnull()]
-
+Adicionar nova coluna com valor padrão em DataFrame => df['nome_nova_coluna'] = valor_padrao
+Unir (concatenar) linhas em um DataFrame => df = pd.concat([df1, df2])
+Percorrer um DataFrame => for i, info in df.iterrows()	# colunas são acessadas na forma info.nome_coluna

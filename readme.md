@@ -8,4 +8,4 @@ Anotações pessoais sobre linguagens de programação e ferramentas.
 - Outros
     - Git
 
-Atualizado última aqui (Github) vez em 30/01/2024
+Atualizado última aqui (Github) vez em 31/01/2024

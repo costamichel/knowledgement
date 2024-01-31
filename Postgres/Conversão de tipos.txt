@@ -1,0 +1,13 @@
+Postgres - Conversão de Tipos
+
+Fontes:
+https://stackoverflow.com/questions/69668781/convert-int-to-string-in-postgresql
+
+=======================================================================
+
+Converter inteiro para string:
+SELECT coluna_inteiro::TEXT 
+FROM tabela;
+
+Exemplo:
+select id_origem, id_origem::TEXT from alunos;

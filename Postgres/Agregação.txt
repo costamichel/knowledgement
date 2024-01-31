@@ -1,0 +1,17 @@
+Postgres - Agregação
+
+Fontes:
+https://www.postgresql.org/docs/9.0/functions-aggregate.html
+https://www.youtube.com/watch?v=ngxcQ30Zwao
+
+=================================================================
+
+Agregar valores:
+SELECT ARRAY_AGG(nome_coluna_agregada)
+FROM tabela
+GROUP BY coluna_agrupamento;
+
+Exemplo:
+select data_nascimento, array_agg(nome) 
+from alunos
+group by data_nascimento;
